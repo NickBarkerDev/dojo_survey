@@ -38,14 +38,7 @@ form {
 .form-control {
     border: none;
     box-shadow: 2px 1px 8px black;
-}
-
-/* .textarea {
-    height: 10rem;
-} */
-
-.form-control {
-    background-color: rgb(51,57,62)
+    background-color: rgb(51,57,62);
 }
 
 label {
