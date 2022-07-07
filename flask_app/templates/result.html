@@ -9,6 +9,7 @@
 </head>
 <body>
     <div class="results-container">
+
         <table class="table table-hover">
             <thead>
             <tr>
@@ -25,8 +26,10 @@
                 <td>{{ session['favorite_language'] }}</td>
                 <td>{{ session['comments'] }}</td>
             </tbody>
-            
         </table>
     </div>
+    <a href="/clear" class="btn">
+        <button>Reset Data</button>
+    </a>
 </body>
 </html>
