@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    width: 420px;
+    width: 26rem;
 }
 
 .form-group {
@@ -49,4 +49,9 @@ form button {
     background-color: rgb(254,192,8);
     padding: 0.5rem 2rem;
     border-radius: 8px;
+}
+
+.results-container {
+    width: 43.125rem;
+    background-color: white;
 }

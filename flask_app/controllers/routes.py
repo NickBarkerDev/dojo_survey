@@ -18,5 +18,10 @@ def process():
     session['location'] = request.form['location']
     session['favorite_language'] = request.form['favorite_language']
     session['comments'] = request.form['comments']
-
     return redirect('/result')
+
+
+@app.route('/clear')
+def clear():
+    session.clear()
+    return redirect('/')
